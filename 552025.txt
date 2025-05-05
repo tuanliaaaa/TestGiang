@@ -1,0 +1,54 @@
+Git hub
+1. repository : nơi lưu giữ source code
+2. Git clone: Clone source code từ remote về local
+3. cd
+4. git add * : thêm tất cả thay đổi ở local
+git add [tên file] / tên file không có dấu cách và phải có đuôi : thêm file nhất định
+5. git status: check xem trạng thái thay đổi ở local
+6. git commit -m "[nội dung commit]" : xác thực các thay đổi ở local rồi nén lại thành id
+7. git push : đẩy thay đổi từ local lên remote, đẩy các commit
+
+>> Load lại github để check thay đổi
+
+Inteliji
+1. 
+
+
+Java
+Nguyên thủy : SỐ nguyên (int), Số thực (float), Chuỗi (string), Ký tự (char), boolean (T/F, 0/1)
+{
+        boolean x = true;
+        System.out.println(x);
+    }
+Không nguyên thủy: Tất cả các dữ liệu là class, 
+
+
+Toán tử: 
+- cộng trừ nhân chia, chia dư, > , <, >=, <=
+- so sánh: ==, !=
+  if (x==y) {
+            System.out.println("3");
+        }
+		
+		
+- Câu lệnh 
+If
+Else if: Không phải điều kiện trong if, và tuân theo 1 điều kiện mới
+Else : Không phải tất cả các cái trên
+
+Khi đọc code, đọc từ trên xuống, vào cái nào rồi thì dừng, k đọc nữa. 
+{
+            int x = 5;
+            if (x>=5)
+            {
+                System.out.println(x);
+            } else if (x>=5)
+            {
+                System.out.println("<5");
+            } else
+            {
+                System.out.println("đã vào else");
+            }
+}
+
+
